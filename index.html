@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Union Domain Service Model</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonts (JetBrains Mono & Supermolot, hosted on Google Fonts or locally) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap">
+  <!-- Assume you will self-host Supermolot as it's not on Google Fonts. Adjust path as needed. -->
+  <link rel="stylesheet" href="supermolot.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="union-header">
+    <div class="header-inner">
+      <img src="union-logo.svg" alt="Union Logo" class="union-logo">
+      <h1 class="union-heading">Union Domain Service Model</h1>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <div class="center-box" id="landing-box">
+      <!-- Placeholder for your image (replace with actual image path) -->
+      <img src="domain.png" alt="Union Domain" class="landing-image">
+      <h2 class="grab-header">Grab Your Union Domain Now</h2>
+      <p class="grab-desc">
+        This is the unofficial Union Name Domain that allows you to transfer any coin across any chain with your name.
+      </p>
+      <div class="domain-entry-section" id="domain-entry-section">
+        <!-- Dynamic username and domain input will be rendered here by JS -->
+      </div>
+      <div class="cost-section">
+        <span class="cost-label">Cost</span>
+        <span class="cost-value">FREE</span>
+      </div>
+      <button class="secure-btn" id="secure-btn">Secure Your Domain</button>
+    </div>
+    <!-- Congratulation Box (hidden by default) -->
+    <div class="center-box" id="congrats-box" style="display: none;">
+      <h2 class="congrats-header" id="congrats-title"></h2>
+      <p class="congrats-desc">
+        Your union domain is now yours forever, you can receive any crypto coin from any blockchain by entering this. <br><span style="color: #A9ECFD;">(This is just a model)</span>
+      </p>
+      <button class="share-btn" id="share-btn">Share Your Domain on X</button>
+      <button class="try-usecase-btn" id="try-btn">Try Use Case</button>
+    </div>
+    <!-- Stats Box (hidden by default) -->
+    <div class="center-box" id="stats-box" style="display: none;">
+      <div class="stats-header">
+        <img src="" alt="User Profile" class="user-pfp" id="user-pfp">
+        <span class="stats-domain" id="stats-domain"></span>
+      </div>
+      <div class="stats-content">
+        <div class="stat-row">
+          <span class="stat-label">Season 0 Mindshare:</span>
+          <span class="stat-value" id="stat-s0"></span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Season 1 Mindshare:</span>
+          <span class="stat-value" id="stat-s1"></span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Testnet Level:</span>
+          <span class="stat-value" id="stat-level"></span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Testnet XP:</span>
+          <span class="stat-value" id="stat-xp"></span>
+        </div>
+      </div>
+      <button class="go-back-btn" id="go-back-btn">Go Back</button>
+    </div>
+    <!-- Toast/Notification (hidden) -->
+    <div id="toast" class="toast" style="display: none;"></div>
+    <!-- Confetti container (for JS) -->
+    <canvas id="confetti-canvas" class="confetti-canvas"></canvas>
+  </main>
+
+  <!-- Footer -->
+  <footer class="union-footer">
+    <div class="footer-inner">
+      <span class="footer-text">
+        <i>This is a Model Website for Union Domain Service and is not official</i>
+      </span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+          </html>
