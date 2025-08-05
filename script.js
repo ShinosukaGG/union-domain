@@ -1,7 +1,7 @@
 // === CONFIG ===
 const SUPABASE_URL = 'https://bvvlqbtwqetltdcvioie.supabase.co/rest/v1';
 const SUPABASE_APIKEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ2dmxxYnR3cWV0bHRkY3Zpb2llIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQwMjM4MzMsImV4cCI6MjA2OTU5OTgzM30.d-leDFpzc6uxDvq47_FC0Fqh0ztaL11Oozm-z6T9N_M';
-const MY_TWEET_URL = 'https://x.com/yourtweet/status/123456789';
+const MY_TWEET_URL = 'https://x.com/Shinosuka_eth/status/1952630543922978825';
 
 // Reserved domains logic
 const reserved = [
